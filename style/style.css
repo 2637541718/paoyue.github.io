@@ -2,7 +2,13 @@ body {
 	background: white;
 	font-family: "微软雅黑";
 }
-
+iframe{
+	width: 100%;
+	height: 800px;
+	display: block;
+	margin: 0 auto;
+	max-width: 680px;
+}
 h2 {
 	color: #fb5561;
 	font-size: 1.2rem;
@@ -441,7 +447,6 @@ p a,.weixin-info-text a{
 
 .cen {
 	max-width: 640px;
-	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
